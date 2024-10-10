@@ -14,6 +14,8 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    company: string;
+    profilePic: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -92,14 +94,9 @@ export const InfiniteMovingCards = ({
             //   change md:w-[450px] to md:w-[60vw] , px-8 py-6 to p-16, border-slate-700 to border-slate-800
             className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
              flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
-            style={{
-              //   background:
-              //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)", //remove this one
-              //   add these two
-              //   you can generate the color from here https://cssgradient.io/
+             style={{
               background: "rgb(4,7,29)",
-              backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
             // change to idx cuz we have the same name
             key={idx}
@@ -116,7 +113,11 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+                  <img 
+                    src={item.profilePic}
+                    alt={`${item.name} profile picture`}
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}

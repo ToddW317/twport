@@ -94,7 +94,7 @@ export const projects = [
     des: "A catholic church in Artesia, CA, that needed a website to connect with its parishioners.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.olfartesia.com",
+    link: "https://olfartesia.org",
   },
   {
     id: 4,
@@ -109,33 +109,35 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Todd was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Todd's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Todd is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Todd's work on our parish website was nothing short of miraculous. He transformed our outdated site into a modern, user-friendly platform that has significantly improved our communication with parishioners. His attention to detail and understanding of our community's needs were truly impressive.",
+    name: "Rev. John Cordero",
+    title: "MMHC, Our Lady of Fatima",
+    company: "olf",
+    profilePic: "/images/olfpfp.svg",
+  },
+  {
+    quote:
+      "Working with Todd was an absolute game-changer for Off Court Creations. He didn't just build a website; he created an immersive online experience that perfectly captures the essence of our brand. His technical expertise combined with his creative vision resulted in a platform that has significantly boosted our online sales and customer engagement.",
+    name: "Abdurahim Shahrani",
+    title: "Founder & CEO, Off Court Creations",
+    company: "occ",
+    profilePic: "/images/occpfp.svg",
+  },
+  {
+    quote:
+      "Todd's contribution to the Cadillac Freedom Festival website was instrumental in making our event a resounding success. His innovative approach to design and functionality resulted in a site that not only looked great but also handled high traffic volumes effortlessly. Todd's ability to translate our patriotic spirit into a digital format was truly remarkable.",
+    name: "John Dykstra",
+    title: "President, Cadillac Freedom Festival",
+    company: "ccf",
+    profilePic: "/images/cffpfp.svg",
   },
   {
     quote:
       "Collaborating with Todd was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Todd's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Todd is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Todd was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Todd's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Todd is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Todd was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Todd's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Todd is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Todd was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Todd's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Todd is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    company: "ast",
+    profilePic: "/images/astpfp.svg",
   },
 ];
 
@@ -175,31 +177,24 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "System Operations Engineer & Support Specialist - Tangerine Global",
+    desc: "Provide technical support and managed systems for a diverse clientele, ensuring seamless operations and high-quality service.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Founder, CEO, & Developer -  Momentum Web Design, LLC",
+    desc: "My personal business where I offer web design and development services to clients.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Laboratory Triage Tech - Long Beach Memorial Medical Center",
+    desc: "Assessed patient conditions, collected samples, and provided initial medical information to healthcare providers.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
