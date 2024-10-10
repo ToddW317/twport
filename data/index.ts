@@ -74,11 +74,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Client - Off Court Creations",
-    des: "Explore the wonders of meticulously crafted merchandise for your sports brand.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.offcourtcreations.com",
+    title: "Volunteer Work - Our Lady of Fatima, Artesia",
+    des: "A catholic church in Artesia, CA, that needed a website to connect with its parishioners.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://olfartesia.org",
   },
   {
     id: 2,
@@ -90,11 +90,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Volunteer Work - Our Lady of Fatima, Artesia",
-    des: "A catholic church in Artesia, CA, that needed a website to connect with its parishioners.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://olfartesia.org",
+    title: "Client - Off Court Creations",
+    des: "Explore the wonders of meticulously crafted merchandise for your sports brand.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.offcourtcreations.com",
   },
   {
     id: 4,
