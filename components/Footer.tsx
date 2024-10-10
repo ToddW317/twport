@@ -22,7 +22,7 @@ const Footer = () => {
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          achieve your goals for tomorrow!
         </p>
         <a href="mailto:wooten00@gmail.com">
           <MagicButton
