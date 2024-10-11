@@ -5,6 +5,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "/TWootenResume_Final.pdf", target: "_blank" },
 ];
 
 export const gridItems = [

@@ -17,6 +17,7 @@ export const FloatingNav = ({
     name: string;
     link: string;
     icon?: JSX.Element;
+    target?: string;
   }[];
   className?: string;
 }) => {
@@ -75,21 +76,16 @@ export const FloatingNav = ({
           <Link
             key={`link=${idx}`}
             href={navItem.link}
+            target={navItem.target || "_self"}
             className={cn(
-              "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
+              navItem.name === "Resume" ? "ml-auto" : ""
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            {/* add !cursor-pointer */}
-            {/* remove hidden sm:block for the mobile responsive */}
-            <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+            <span className="text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
-        {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Login</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button> */}
       </motion.div>
     </AnimatePresence>
   );

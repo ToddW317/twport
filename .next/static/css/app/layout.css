@@ -1160,6 +1160,9 @@ video {
 .mt-7 {
   margin-top: 1.75rem;
 }
+.ml-auto {
+  margin-left: auto;
+}
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
